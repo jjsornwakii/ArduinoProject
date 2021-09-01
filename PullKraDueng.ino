@@ -3,11 +3,9 @@ int led1 = 8 , c1 = 0 ;
 int led2 = 9 , c2 = 0 ;
 int led3 = 10 , c3 = 0 ;
 
-int countT1 = 0;
- 
+
 int buttonState ;
 int lastbuttonState = LOW ;
-
 long lastTime = 0;
 long DBdelay = 50 ; //ms
 
