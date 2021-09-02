@@ -104,7 +104,7 @@ void loop()
                   }
            }
 
-           if(digitalRead(b2) == 0 && ButtonState == 1 && ( c1!=1 || c3!=1 ) ){ 
+           if(digitalRead(b2) == 0 && ButtonState == 1 && c1!=1 && c3!=1 ){ 
               sw2 = 1;                                             
            }                                                        /// เปิดการทำงานของสีเหลือง
            
