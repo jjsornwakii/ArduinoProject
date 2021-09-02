@@ -3,11 +3,9 @@ int led1 = 8 , c1 = 0 ;
 int led2 = 9 , c2 = 0 ;
 int led3 = 10 , c3 = 0 ;
 
-int countT1 = 0;
- 
+
 int buttonState ;
 int lastbuttonState = LOW ;
-
 long lastTime = 0;
 long DBdelay = 50 ; //ms
 
@@ -49,7 +47,7 @@ void turn_off_right() {
     lastT3 = 0;
   }
 }
-/////////////////////////////////////////////////////
+///////////////////////////////////////////////////// 2 กระพริบๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆ
 int sw2 = 0;
 long lastT2 = 0;
 long countT2 = 0;
@@ -184,16 +182,14 @@ void loop() {
 
 
 
-
-
-
-
   }
 }
+ 
   ////// 2 กระพริบ
   if (sw2 == 1) {
     bibi();
   }
+ 
   ////// 3 วิ ดับ เอง
   turn_off_left();
   turn_off_right();
